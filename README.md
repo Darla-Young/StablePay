@@ -99,7 +99,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## The process
 
-// what was my process? (step by step)
+- Brainstormed features and style
+- Created outline of features and necessary components
+- Created and organized file structure based on outline
+- Currently in coding stage
 
 ### Built with
 
@@ -112,7 +115,46 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Continued development
 
-// what features will be added to this app in the future?
+General public:
+    [ ] Contact the developer
+    [ ] Learn about the app (FAQ's)
+    [ ] Create an account with login credentials and a custom profile
+    [ ] Query for a forgotten password
+
+Dealer Accounts:
+    [ ] Update profile information to include:
+        [ ] Employer
+        [ ] Position
+        [ ] W-4 information
+        [ ] Paycheck withholdings
+        [ ] Bill due dates & amounts
+    [ ] Search casinos by location to find:
+        [ ] Average rates of pay for selected position
+        [ ] Pay structure
+        [ ] Job openings
+        [ ] Average cost of living for that location
+    [ ] View Calendar for:
+        [ ] Pay dates:
+            [ ] All paydates display estimated amounts until confirmed
+            [ ] User may confirm by entering paystub information:
+                [ ] Withholdings
+                [ ] Gross Pay
+                [ ] Tip outs
+            [ ] Suggest amount to save & what for - based on estimated bills vs estimated pay
+        [ ] Bill due dates:
+            [ ] All bills display estimated amounts until confirmed
+            [ ] User may confirm by entering actual bill amount
+        [ ] Averages and totals (initiated with search):
+            [ ] By bill/paycheck
+            [ ] By day/month/year/lifetime
+            [ ] By position
+            [ ] By casino
+            [ ] By location
+
+Employer Accounts:
+    [ ] Create job listings
+    [ ] Update pay structure
+
 
 ### Useful resources
 
@@ -121,4 +163,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - [MUI](https://www.mui.com) - Great for pre-made styling, React component library.
 - [Undraw](https://undraw.co/) - "Open-source illustrations for any idea you can imagine and create"
 
-## Acknowledgments# StablePay
+## Acknowledgments
