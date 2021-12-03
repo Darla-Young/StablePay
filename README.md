@@ -116,44 +116,44 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### Continued development
 
 General public:
-    - Contact the developer
-    - Learn about the app (FAQ's)
-    - Create an account with login credentials and a custom profile
-    - Query for a forgotten password
+- Contact the developer
+- Learn about the app (FAQ's)
+- Create an account with login credentials and a custom profile
+- Query for a forgotten password
 
 Dealer Accounts:
-    - Update profile information to include:
-        - Employer
-        - Position
-        - W-4 information
-        - Paycheck withholdings
-        - Bill due dates & amounts
-    - Search casinos by location to find:
-        - Average rates of pay for selected position
-        - Pay structure
-        - Job openings
-        - Average cost of living for that location
-    - View Calendar for:
-        - Pay dates:
-            - All paydates display estimated amounts until confirmed
-            - User may confirm by entering paystub information:
-                - Withholdings
-                - Gross Pay
-                - Tip outs
-            - Suggest amount to save & what for - based on estimated bills vs estimated pay
-        - Bill due dates:
-            - All bills display estimated amounts until confirmed
-            - User may confirm by entering actual bill amount
-        - Averages and totals (initiated with search):
-            - By bill/paycheck
-            - By day/month/year/lifetime
-            - By position
-            - By casino
-            - By location
+- Update profile information to include:
+    - Employer
+    - Position
+    - W-4 information
+    - Paycheck withholdings
+    - Bill due dates & amounts
+- Search casinos by location to find:
+    - Average rates of pay for selected position
+    - Pay structure
+    - Job openings
+    - Average cost of living for that location
+- View Calendar for:
+    - Pay dates:
+        - All paydates display estimated amounts until confirmed
+        - User may confirm by entering paystub information:
+            - Withholdings
+            - Gross Pay
+            - Tip outs
+        - Suggest amount to save & what for - based on estimated bills vs estimated pay
+    - Bill due dates:
+        - All bills display estimated amounts until confirmed
+        - User may confirm by entering actual bill amount
+    - Averages and totals (initiated with search):
+        - By bill/paycheck
+        - By day/month/year/lifetime
+        - By position
+        - By casino
+        - By location
 
 Employer Accounts:
-    - Create job listings
-    - Update pay structure
+- Create job listings
+- Update pay structure
 
 
 ### Useful resources
