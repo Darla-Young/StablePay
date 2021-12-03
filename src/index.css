@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Body {
+  width: 500px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mainButton {
+  margin: 5px;
+  width: 75px;
+}
+
+.Footer {
+  width: 500px;
+  background-image: url(assets/images/footer.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.footlink {
+  color: black;
+  font-weight: bold;
+  margin: 2px;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+}
+
+.footlink:hover {
+  color: white;
+}
