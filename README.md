@@ -1,8 +1,66 @@
-# Getting Started with Create React App
+# StablePay
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+// website goes here after launch
 
-## Available Scripts
+// example login details go here
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The App](#the-app)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Authors](#authors)
+- [Fast Instructions for running this project](#fast-instructions-for-running-this-project)
+- [General Instructions for React Apps](#general-instructions-for-react-apps)
+  - [`npm start`](#npm-start)
+  - [`npm test`](#npm-test)
+  - [`npm run build`](#npm-run-build)
+  - [`npm run eject`](#npm-run-eject)
+- [The process](#the-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+// why did i make this app?
+
+### The App
+
+// what does this app do?
+
+### Screenshot
+
+![](/*insert local link, without ''*/)
+
+### Links
+
+- Flow Chart: https://www.figma.com/
+- Live Site URL: 
+- Any external code that was used: 
+- Login Endpoint: 
+// any other useful links
+
+## Author
+
+- Darla Young (https://github.com/Darla-Young)
+
+## Fast Instructions for running this project
+
+- You need React and Node.js on your local environment.
+- clone project
+- in terminal `npm install`
+- then `npm start`
+- find all necesssary imports at the top of each file. Be sure you load...
+  - npm i yup
+  - npm i styled-components
+  - npm i axios
+  - npm i react-router-dom
+  - npm i @mui/material
+
+## General Instructions for React Apps
 
 In the project directory, you can run:
 
@@ -39,32 +97,28 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## The process
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+// what was my process? (step by step)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Built with
 
-### Code Splitting
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Mui](https://mui.com/) - React component library
+- [Styled Components](https://styled-components.com/) - For styled components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Continued development
 
-### Analyzing the Bundle Size
+// what features will be added to this app in the future?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Useful resources
 
-### Making a Progressive Web App
+- [Figma](https://www.figma.com) - This is where we began our design, creating a flow chart to visualize every component we would need.
+- VSCode live share (VSC extension) - This extension allowed our team to code together and see each other's changes in real time. Very useful!
+- [MUI](https://www.mui.com) - Great for pre-made styling, React component library.
+- [Undraw](https://undraw.co/) - "Open-source illustrations for any idea you can imagine and create"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments# StablePay
