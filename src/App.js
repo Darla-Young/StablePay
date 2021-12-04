@@ -5,7 +5,7 @@ import logo from './assets/images/tablePay.png';
 // import About from './components/General/About.js';
 // import Averages from './components/Dealer/Averages.js';
 // import Calendar from './components/Dealer/Calendar.js';
-// import Contact from './components/General/Contact.js';
+import ContactUs from './components/ContactUs.js';
 // import FAQ from './components/General/FAQ.js';
 // import ForgotPassword from './components/General/ForgotPassword.js';
 // import Home from './components/Dealer/Home.js';
@@ -23,12 +23,17 @@ function App() {
       <img className='header' alt='StablePay logo' src={logo} />
       <div className="Body">
         <Routes>
-
+          <Route 
+            path='/contactUs'
+            element={
+              <ContactUs />
+            }
+          />
         </Routes>
       </div>
       <div className='Footer'>
         <Link className='footlink' to='./components/About'>About Us</Link>
-        <Link className='footlink' to='./components/Contact'>Contact Form</Link>
+        <Link className='footlink' to='./components/ContactUs'>Contact Us</Link>
         <Link className='footlink' to='./components/FAQ'>FAQ</Link>
       </div>
     </React.Fragment>
