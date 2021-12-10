@@ -21,7 +21,7 @@ const ContactUs = ({contactFormValues}) => {
                     onChange={onChange}
                     // value={contactFormValues.name}
                 />
-            </label>
+            </label><br />
             <label>
                 Email:
                 <input
@@ -32,7 +32,7 @@ const ContactUs = ({contactFormValues}) => {
                     onChange={onChange}
                     // value={contactFormValues.email}
                 />
-            </label>
+            </label><br />
             <label>
                 Message:
                 <textarea 

@@ -1,3 +1,5 @@
+/* app entirety */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,25 +12,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} 
 
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.Body {
-  width: 500px;
-}
+/* header */
 
 .header {
-  position: fixed;
+  background-image: url('./assets/images/tablePay.png');
+  position: sticky;
+  will-change: transform;
   top: 0;
+  width: 100%;
+  height: 10%;
 }
 
-.Main {
+/* body (general) */
+
+.body {
+  width: 500px;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -39,23 +51,25 @@ code {
   transform: translate(-50%, -50%);
 }
 
-.mainButton {
-  margin: 5px;
-  width: 75px;
+/* footer */
+
+@mixin background($imgpath, $position: cover, $repeat: no-repeat) {
+  background: url(#{$imgpath}) $repeat $position;
 }
 
-.Footer {
-  width: 500px;
-  background-image: url(assets/images/footer.png);
-  background-size: cover;
+footer {
+  @include background('../assets/images/footer.png');
   display: flex;
   flex-direction: column;
   align-items: center;
   position: fixed;
+  left: 0;
+  right: 0;
   bottom: 0;
+  height: 180px;
 }
 
-.footlink {
+.navigation link {
   color: black;
   font-weight: bold;
   margin: 2px;
@@ -65,6 +79,6 @@ code {
   height: 20px;
 }
 
-.footlink:hover {
+.navigation link:hover {
   color: white;
 }
